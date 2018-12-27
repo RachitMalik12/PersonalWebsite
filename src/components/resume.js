@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
 
-class Resume extends Component {} {
+class Resume extends Component {
   render(){
     return (
-      <div><h1>Resume Page </h1></div>
-    )
+      <div>
+      <a href="https://drive.google.com/file/d/19hbalmD0YTnvpj-06v1xYcrR_r3Kgj0r/view?usp=sharing">
+      <h1> View Resume</h1>
+      </a>
+
+      </div>
+    );
   }
 }
 
